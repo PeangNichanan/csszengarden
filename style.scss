@@ -1,0 +1,133 @@
+$margin1: 20px 10px 10px 10px;
+$space: 20px 20px 10px 10px;
+$block: #E86C52;
+$darkDrop: rgb(134, 87, 134);
+
+
+@font-face {
+    font-family: peangWriting;
+    src: url(PeangEngHandwriting.ttf);
+}
+
+#css-zen-garden{
+    // font-family: Helvetica, Arial, sans-serif;
+    // background-image: linear-gradient(rgb(255, 152, 133),pink);
+    background-image: url(./img/white.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: peangWriting;
+}
+
+.page-wrapper{
+    margin: 30px 30px 30px 30px;
+
+}
+
+
+.summary{
+    padding: 5px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(255, 187, 175);
+    box-shadow: 5px 5px;
+}
+
+header {
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    background-image: url(./img/mable.png);
+    background-size: 100% 100%;
+    // background-image: linear-gradient(rgb(255, 90, 61),pink);
+    padding: $margin1;
+    box-shadow: 5px 5px;
+}
+
+p{
+    padding: 0px 0px 0px 20px;
+    font-size: 17px;
+}
+
+h1{
+    font-size: 3em;
+    color: rgb(66, 21, 7);
+    text-shadow: 2px 2px #a57e00;
+}
+
+h2{
+    color: #a57e00d2;
+    text-shadow: 1px 1px rgb(66, 21, 7);
+}
+
+h3{
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: rgb(255, 176, 85);
+    text-shadow: 1px 1px rgb(255, 250, 241);
+    box-shadow: 5px 5px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 30px;
+}
+
+footer{
+    max-width: fit-content;
+    background-color: rgb(255, 168, 229);
+    text-shadow: 1px 1px rgb(255, 250, 241);
+    box-shadow: 5px 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 20px 1400px;
+}
+
+aside{
+    background-color: rgb(251, 133, 148);
+    border-radius: 10px;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+ul{
+    padding: 0px 0px 0px 50px;
+}
+
+div.preamble{
+    border-radius: 10px;
+    background-color: $block;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+div.explanation{
+    border-radius: 10px;
+    background-color: $block;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+div.participation{
+    border-radius: 10px;
+    background-color: $block;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+div.benefits{  
+    border-radius: 10px;
+    background-color: $block;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+div.requirements{
+    border-radius: 10px;
+    background-color: $block;
+    margin: $margin1;
+    padding: $space;
+    box-shadow: 5px 5px;
+}
+
+
+
